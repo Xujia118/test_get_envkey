@@ -1,10 +1,9 @@
 name: Run Python Script with Secret
 
 on: 
-	push
-		branches:
-			- main
-
+  push:
+    branches:
+      - main
 
 jobs:
   build:
